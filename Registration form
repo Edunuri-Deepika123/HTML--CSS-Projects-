@@ -1,0 +1,74 @@
+<!Doctype html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<form>
+<table align="center" width="200">
+<tr>
+<td align="center" colspan="2" >
+<h1>Registration form<h1>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+fill in your details to get started
+</td>
+</tr>
+<tr>
+
+<td>first name *</td>
+<td>last name *</td>
+</tr>
+<tr>
+
+<td><input type="text" size="10"></td>
+<td><input type="text" size="10"></td>
+
+</tr>
+
+<tr>
+<td>E-mail ID *</td></tr>
+<tr>
+<td>
+<input type="email">
+</td>
+</tr>
+<tr>
+<td>Mobile Number*</td>
+</tr>
+<tr>
+<td><input type="number"></td>
+</tr>
+<tr>
+<td>preferred program*</td>
+</tr>
+<tr>
+<td>
+<select >
+<option>select an option...      </option>
+<option>tata scholarship</option></td>
+</tr>
+
+<tr>
+<td colspan="2">
+<input type="checkbox">I agree to recieve data and updates regarding the updates*</td>
+<td>
+</tr>
+<tr>
+<td align="center"colspan="2">
+<input type="checkbox">lam not a robot
+</td>
+
+</tr>
+<tr>
+<td align="center" colspan="2">
+<input type="submit" value="Register" class="btn">
+</td>
+</tr>
+
+<tr>
+<td colspan="2">Already Registered?<a href="#">Login here</a>
+</td>
+</tr>
