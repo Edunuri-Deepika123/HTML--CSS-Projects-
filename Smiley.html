@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+section{
+  border:2px solid black;
+  width:220px;
+  height:220px;
+  box-shadow:0 8px 10px rgba(0,0,0,0.5);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+ 
+}
+
+#face{
+  width:200px;
+  height:200px;
+  background:orange;
+  border-radius:50%;
+  position:relative;
+}
+
+/* Eyes (common styles combined) */
+.eye{
+  width:30px;
+  height:30px;
+  background:black;
+  border-radius:50%;
+  position:absolute;
+  top:60px;
+}
+
+.left-eye{
+  left:50px;
+}
+
+.right-eye{
+  right:50px;
+}
+
+#mouth{
+  width:100px;
+  height:40px;
+  background:brown;
+  border-radius:0 0 50px 50px;
+  position:absolute;
+  bottom:40px;
+  left:50%;
+  transform:translateX(-50%);
+}
+</style>
+</head>
+
+<body>
+<section>
+  <div id="face">
+    <div class="eye left-eye"></div>
+    <div class="eye right-eye"></div>
+    <div id="mouth"></div>
+  </div>
+</section>
+</body>
+</html>
